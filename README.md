@@ -61,25 +61,4 @@ Po uruchomieniu programu wyświetla się menu:
 2. Dodaj produkt do koszyka
 3. Wyświetl koszyk
 4. Zakończ zakupy
-
 Użytkownik wybiera odpowiednią opcję, wpisując jej numer. Program wykonuje wybraną operację i wyświetla odpowiedni komunikat.
-
-7. Uruchomienie projektu
-
-1. Otwórz projekt w środowisku IntelliJ IDEA lub Eclipse.
-2. Upewnij się, że wszystkie cztery pliki .java znajdują się w odpowiednim pakiecie lub folderze źródłowym.
-3. Uruchom plik Sklep.java za pomocą metody main().
-4. Korzystaj z menu wyświetlanego w konsoli.
-
-8. Wymagania projektu
-
-* Cztery pliki źródłowe .java.
-* Co najmniej dwie klasy dziedziczące.
-* Jedna klasa zawierająca metodę main().
-* Wykorzystanie programowania obiektowego.
-
-9. Podsumowanie
-
-Projekt przedstawia podstawowe działanie sklepu internetowego oraz zastosowanie programowania obiektowego w Javie. Stanowi przykład wykorzystania dziedziczenia, polimorfizmu, kolekcji i instrukcji sterujących w praktycznym programie konsolowym.
-
-Projekt może zostać rozbudowany o bazę danych, system logowania użytkowników, usuwanie produktów z koszyka oraz składanie i zapisywanie zamówień.
