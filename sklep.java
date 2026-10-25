@@ -16,7 +16,7 @@ public class Sklep {
         int wybor;
 
         do {
-            System.out.println("\n=== SKLEP INTERNETOWY ===");
+            System.out.println("Sklep Internetowy");
             System.out.println("1. Wyswietl produkty");
             System.out.println("2. Dodaj produkt do koszyka");
             System.out.println("3. Wyswietl koszyk");
@@ -28,7 +28,7 @@ public class Sklep {
             switch (wybor) {
                 case 1:
                     for (int i = 0; i < produkty.size(); i++) {
-                        System.out.println("\nID: " + (i + 1));
+                        System.out.println("ID: " + (i + 1));
                         produkty.get(i).wyswietl();
                     }
                     break;
@@ -48,7 +48,7 @@ public class Sklep {
                 case 3:
                     double suma = 0;
 
-                    System.out.println("\n=== TWOJ KOSZYK ===");
+                    System.out.println("Twoj koszyk");
 
                     for (Produkt p : koszyk) {
                         p.wyswietl();
